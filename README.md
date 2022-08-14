@@ -33,3 +33,11 @@ Error boundaries are React components that catch JavaScript errors anywhere in t
 ![1660490021364](image/README/formik_01.png)
 
 ![1660490060837](image/README/formik_02.png)
+
+## Yup
+
+Yup is a schema builder for runtime value parsing and validation.
+
+![1660490740926](image/README/yup_with_formik.png)
+
+![1660490793431](image/README/yup.png)
