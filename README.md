@@ -45,3 +45,13 @@ Yup is a schema builder for runtime value parsing and validation.
 ![1660490740926](image/README/yup_with_formik.png)
 
 ![1660490793431](image/README/yup.png)
+
+## Uncontrolled form vs Controller form
+
+In most cases, React recommend using controlled components to implement forms. In a controlled component, form data is handled by a React component. The alternative is uncontrolled components, where form data is handled by the DOM itself.
+
+![1660493436981](image/README/when-to-use-uncontrolled-form.png)
+
+![1660493790857](image/README/impl_uncontrolled_form.png)
+
+## Vanilla React
