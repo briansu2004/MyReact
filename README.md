@@ -93,3 +93,7 @@ Redux middleware
 ![1660503330431](image/README/redux_middleware.png)
 
 ![1660503238584](image/README/redux_async_lib.png)
+
+Redux Thunk
+
+`import thunk from "react-thunk"`
