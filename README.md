@@ -67,3 +67,19 @@ In most cases, React recommend using controlled components to implement forms. I
 ![1660494224312](image/README/react_ook_form_02.png)
 
 ![1660494250208](image/README/react_ook_form_03.png)
+
+## Function vs Class
+
+![1660496125931](image/README/function_vs_class.png)
+
+## Handle immutable state
+
+![1660497492196](image/README/handle_immutable_state.png)
+
+## Flux vs Redux
+
+![1660497004445](image/README/flux_redux_01.png)
+
+![1660497022401](image/README/flux_redux_02.png)
+
+## Redux
