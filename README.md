@@ -27,3 +27,9 @@ Error boundaries are React components that catch JavaScript errors anywhere in t
 ## Mock/Fake with MirageJS
 
 ![1660487628037](image/README/mirageJS.png)
+
+## Formik
+
+![1660490021364](image/README/formik_01.png)
+
+![1660490060837](image/README/formik_02.png)
