@@ -87,3 +87,5 @@ In most cases, React recommend using controlled components to implement forms. I
 ![1660500727319](image/README/provider_connect.png)
 
 ![1660500834419](image/README/chat_with_redux.png)
+
+![1660503238584](image/README/redux_async_lib.png)
