@@ -97,3 +97,7 @@ Redux middleware
 Redux Thunk
 
 `import thunk from "react-thunk"`
+
+Redux vs local state
+
+![1660506756549](image/README/1660506756549.png)
