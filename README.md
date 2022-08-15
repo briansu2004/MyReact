@@ -100,10 +100,12 @@ Redux Thunk
 
 Redux vs local state
 
-![1660506756549](image/README/1660506756549.png)
+![1660506756549](image/README/redux_vs_state.png)
 
 ## Misc
 
 ### CommonJS
 
-### PostCSS
+### PostCSS and cssnano plugin
+
+![1660527982976](image/README/PostCSS.png)
