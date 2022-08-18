@@ -5,7 +5,9 @@ My React
 ## React Storybook
 
 ```dos
+npx create-react-app react-storybook-simple
 npx sb init
+npm run storybook
 ```
 
 ## Reac MDX
