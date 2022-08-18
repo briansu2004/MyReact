@@ -2,6 +2,14 @@
 
 My React
 
+## React Storybook
+
+```dos
+npx sb init
+```
+
+## PropTypes
+
 ## SWR Mutation
 
 ![1660484924548](image/README/mutation.png)
