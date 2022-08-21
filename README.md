@@ -117,13 +117,10 @@ Redux vs local state
 ## React Redux
 
 ```dos
-npm i redux react-redux
+npm i redux react-redux redux-thunk
 ```
 
-```dos
-useSelector
-useDispatch
-```
+Redux hooks - useSelector & useDispatch
 
 action
 
