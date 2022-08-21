@@ -10,7 +10,7 @@ npx sb init
 npm run storybook
 ```
 
-## Reac MDX
+## React MDX
 
 ## PropTypes
 
@@ -113,6 +113,23 @@ Redux Thunk
 Redux vs local state
 
 ![1660506756549](image/README/redux_vs_state.png)
+
+## React Redux
+
+```dos
+npm i redux react-redux
+```
+
+```dos
+useSelector
+useDispatch
+```
+
+action
+
+reducer
+
+store
 
 ## Misc
 
