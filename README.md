@@ -135,3 +135,7 @@ store
 ### PostCSS and cssnano plugin
 
 ![1660527982976](image/README/PostCSS.png)
+
+### redux-logger
+
+### react-table
