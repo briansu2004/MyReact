@@ -2,6 +2,14 @@
 
 My React
 
+## React BDD test with Jest and Enzyme
+
+Jest config
+
+Enzyme adapter set up
+
+...
+
 ## React Storybook
 
 ```dos
