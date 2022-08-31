@@ -4,9 +4,18 @@ My React
 
 ## React BDD test with Jest and Enzyme
 
+BDD
+
 Jest config
 
 Enzyme adapter set up
+
+
+
+```dos
+npx create-react-app ...
+npm i -D enzyme enzyme-react-16
+```
 
 ...
 
