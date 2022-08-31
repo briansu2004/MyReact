@@ -6,18 +6,17 @@ My React
 
 BDD
 
-Jest config
+Jest (from facebook) config
 
-Enzyme adapter set up
-
-
+Enzyme (from airbnb) adapter set up
 
 ```dos
 npx create-react-app ...
 npm i -D enzyme enzyme-react-16
 ```
 
-...
+enzyme-react-16
+@someone/enzyme-react-17
 
 ## React Storybook
 
