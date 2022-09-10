@@ -2,6 +2,20 @@
 
 My React
 
+## Convert a component to a separate npm package
+
+Steps:
+
+- Create a repo
+- Put all files to ./src folder
+- Resolve dependencies
+  - devDependencies & peerDependencies
+- npm run storybook
+- npm run test / jest
+- npm run lint
+- PR
+- GitHub actions
+
 ## React BDD test with Jest and Enzyme
 
 BDD
@@ -15,7 +29,12 @@ npx create-react-app ...
 npm i -D enzyme enzyme-react-16
 ```
 
+enzyme-react only supports react v16
+
 enzyme-react-16
+
+Someone did something for react v17
+
 @someone/enzyme-react-17
 
 ## React Storybook
