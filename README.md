@@ -2,6 +2,85 @@
 
 My React
 
+## Convert a SVG file to a JSX component
+
+Steps (use LockClosed as an example):
+
+- Download LockClosed.svg
+
+- Open it in VSCode (plain text format)
+
+- Copy the text and paste to SVGR playground (<https://react-svgr.com/playground/>)
+
+- Copy the converted jsx to VSCode and use it to create a new file LockClosed.jsx
+
+- Use Add.jsx as a reference, add the following lines:
+
+```javascript
+import SVGIcon from '../SVGIcon'
+
+const copyDictionary = {
+  en: {
+    a11yText: "LockClosed",
+  },
+  fr: {
+    a11yText: "VerrouillerFermé",
+  },
+}
+```
+
+- Use Google Translate to get French translations
+
+- Refer to Add.jsx, update these lines
+
+```javascript
+const SvgComponent = (props) => {
+ const viewBox = '0 0 21 20'
+ return (
+  <SVGIcon {...props} copyDictionary={copyDictionary} viewBox={viewBox}>
+   <path
+    fillRule="evenodd"
+    clipRule="evenodd"
+    d="M10.5 20c-5.514 0-10-4.486-10-10s4.486-10 10-10 10 4.486 10 10-4.486 10-10 10Zm0-19.13C5.465.87 1.37 4.965 1.37 10c0 5.035 4.095 9.13 9.13 9.13 5.035 0 9.13-4.095 9.13-9.13 0-5.035-4.095-9.13-9.13-9.13Zm-.58 9.71-4.75-.146a.527.527 0 0 1-.503-.524v.175c0-.276.224-.504.501-.504h4.748v-.084l.148-4.825a.533.533 0 0 1 .526-.505h-.175c.279 0 .504.222.504.501v4.913h4.913c.279 0 .501.225.501.504V9.91a.533.533 0 0 1-.504.526l-4.826.148h-.084v4.748a.504.504 0 0 1-.504.501h.175a.527.527 0 0 1-.524-.502l-.146-4.75Z"
+    fill='#fff'
+   />
+  </SVGIcon>
+ )
+}
+```
+
+- Make sure the viewBox values are copied properly from the SVGR playground
+
+e.g. `const viewBox = '0 0 21 20'`
+
+- npm run storybook
+
+- Verify in storybook
+
+- Unit tests
+
+`npm run test`
+
+svg.spec.jsx
+
+```javascript
+  describe("LockClosed", () => {
+    afterEach(cleanup);
+    it("should return LockClosed icon", () => {
+      render(<Icon icon="lockclosed" size="xl" />);
+      // check a11yText of LockClosed icon
+      expect(screen.getByText("LockClosed")).toBeInTheDocument();
+    });
+
+    it("should return LockClosed icon with custom fill", () => {
+      const { container } = render(
+        <Icon icon="lockclosed" size="xxl" fill="#c12335" />
+      );
+      expect(container.querySelector("[fill='#c12335']")).toBeInTheDocument();
+    });
+  });
+```
+
 ## Convert a component to a separate npm package
 
 Steps:
