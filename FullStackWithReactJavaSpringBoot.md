@@ -2,7 +2,7 @@
 
 Student system full stack application with React and Spring Boot
 
-## Backend 
+## Backend
 
 ### Spring Initializr
 
@@ -29,3 +29,8 @@ Postman
 ### React
 
 `npx create-react-app student-frontend`
+
+```dos
+npm i @material-ui/core
+npm i @material-ui/icons
+```
