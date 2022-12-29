@@ -18,4 +18,10 @@ XAMPP Control Panel
 
 ## Java Spring Boot
 
+Postman
+
+![1672351940470](image/FullStackWithReactJavaSpringBoot/1672351940470.png)
+
 ## React
+
+`npx create-react-app `
