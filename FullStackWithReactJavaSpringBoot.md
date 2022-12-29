@@ -2,11 +2,13 @@
 
 Student system full stack application with React and Spring Boot
 
-## Spring Initializr
+## Backend 
+
+### Spring Initializr
 
 ![1672349318830](image/FullStackWithReactJavaSpringBoot/1672349318830.png)
 
-## MySQL
+### MySQL
 
 XAMPP Control Panel
 
@@ -16,12 +18,14 @@ XAMPP Control Panel
 
 ![1672351065309](image/FullStackWithReactJavaSpringBoot/1672351065309.png)
 
-## Java Spring Boot
+### Java Spring Boot
 
 Postman
 
 ![1672351940470](image/FullStackWithReactJavaSpringBoot/1672351940470.png)
 
-## React
+## Frontend
 
-`npx create-react-app `
+### React
+
+`npx create-react-app student-frontend`
