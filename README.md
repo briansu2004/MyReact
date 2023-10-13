@@ -24,4 +24,6 @@ My React
 
 [React AG Grid](ReactAGGrid.md)
 
+[React Context API](ReactContextAPI.md)
+
 [Misc](ReactMisc.md)
