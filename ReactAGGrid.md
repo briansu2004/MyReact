@@ -21,6 +21,8 @@ To kickstart a React application with AG Grid, you'll need to follow a few steps
    Then, create a new React project:
 
    ```bash
+   npx create-react-app my-awesome-react-app
+
    npx create-react-app ag-grid-react-app
    ```
 
