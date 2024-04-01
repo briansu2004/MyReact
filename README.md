@@ -24,6 +24,7 @@ Hot items:
 - Optimizing Performance
 - Deployment
 - Accessibility
+- Husky
 
 ## My React Projects
 
