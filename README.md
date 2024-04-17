@@ -28,7 +28,34 @@ Hot items:
 
 ## My React Projects
 
-<!-- ... -->
+## Project 3
+
+<!-- - Successfully migrated UI components to React, addressing accessibility issues and ensuring compatibility across various devices. 
+- Utilized Jest and React Testing Library for comprehensive unit testing. -->
+
+Modernized a legacy Java Struts project to React to enhance user experience, accessibility, and responsiveness.
+
+- Migration to React: Spearheaded the transformation of an outdated Java Struts project's UI to React, leveraging modern web development practices and enhancing overall performance and maintainability.
+
+- Accessibility Enhancement: Implemented accessibility best practices during the conversion process, ensuring compliance with WCAG guidelines and improving usability for users with disabilities.
+
+- Responsive Design: Engineered responsive layouts and interfaces, optimizing the application for seamless functionality across desktop and mobile devices, thereby expanding the reach and usability of the platform.
+
+- Unit Testing: Utilized Jest and React Testing Library to develop and execute thorough unit tests, ensuring code quality, reliability, and robustness of the React components.
+
+## Project 2
+
+Developed and maintained a complex React application utilized by Call Center agents, ensuring seamless operation and enhanced user experience.
+
+- Updated front-end web components to align with backend API changes, facilitating smooth integration and efficient communication between the front-end and backend systems.
+- Implemented comprehensive unit tests using Jest and React Testing Library, resulting in a significant increase in code reliability and a reduction in bug occurrences by X%.
+- Designed and built customized reusable UI components to improve development efficiency and consistency across the application, resulting in a X% reduction in development time for new features.
+- Created Storybook documentation for UI components, enabling rapid prototyping, collaboration among team members, and ensuring consistency in UI design and functionality.
+- Collaborated closely with cross-functional teams including UX/UI designers, backend developers, and QA engineers to deliver high-quality solutions within project timelines.
+- Actively participated in code reviews, providing constructive feedback and ensuring adherence to best practices and coding standards.
+- Mentored junior developers, sharing best practices and fostering a culture of continuous learning and improvement within the team.
+
+## Project 1
 
 - Developed a Full Stack web app with React and deploed to AWS
 
