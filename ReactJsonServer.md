@@ -1,6 +1,8 @@
 # React + JSON Server
 
-## Keywords
+- [Kickstart a React application with JSON Server](#kickstart-a-react-application-with-json-server)
+
+<!-- ## Keywords -->
 
 ## Kickstart a React application with JSON Server
 
@@ -56,13 +58,13 @@ To kickstart a React project with a JSON server for handling data, you'll want t
    In your React app, you can fetch data from the JSON server using JavaScript's `fetch` or a library like Axios. For example, you can create a component to fetch and display the items:
 
    ```jsx
-   import React, { useEffect, useState } from 'react';
+   import React, { useEffect, useState } from "react";
 
    function App() {
      const [items, setItems] = useState([]);
 
      useEffect(() => {
-       fetch('http://localhost:3001/items')
+       fetch("http://localhost:3001/items")
          .then((response) => response.json())
          .then((data) => setItems(data));
      }, []);
@@ -94,4 +96,4 @@ To kickstart a React project with a JSON server for handling data, you'll want t
 
    Your React app should be accessible at `http://localhost:3000`, and it will fetch data from the JSON server at `http://localhost:3001`.
 
-Now, you have a basic React application connected to a JSON server. You can further expand on this by implementing CRUD operations, routing, and additional features as needed for your project.
+<!-- Now, you have a basic React application connected to a JSON server. You can further expand on this by implementing CRUD operations, routing, and additional features as needed for your project. -->

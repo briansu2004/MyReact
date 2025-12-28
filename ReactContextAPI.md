@@ -1,6 +1,9 @@
 # React Context API
 
-## Keywords
+- [Kickstart a React application with Context API](#kickstart-a-react-application-with-context-api)
+- [React Provider](#react-provider)
+
+<!-- ## Keywords -->
 
 ## Kickstart a React application with Context API
 
@@ -18,7 +21,7 @@ Kickstarting with React's Context API is a great way to manage and share state a
 
    ```jsx
    // MyContext.js
-   import React, { createContext, useContext, useState } from 'react';
+   import React, { createContext, useContext, useState } from "react";
 
    const MyContext = createContext();
 
@@ -44,16 +47,16 @@ Kickstarting with React's Context API is a great way to manage and share state a
 
    ```jsx
    // index.js
-   import React from 'react';
-   import ReactDOM from 'react-dom';
-   import App from './App';
-   import { MyProvider } from './MyContext';
+   import React from "react";
+   import ReactDOM from "react-dom";
+   import App from "./App";
+   import { MyProvider } from "./MyContext";
 
    ReactDOM.render(
      <MyProvider>
        <App />
      </MyProvider>,
-     document.getElementById('root')
+     document.getElementById("root")
    );
    ```
 
@@ -62,8 +65,8 @@ Kickstarting with React's Context API is a great way to manage and share state a
 
    ```jsx
    // SomeComponent.js
-   import React from 'react';
-   import { useMyContext } from './MyContext';
+   import React from "react";
+   import { useMyContext } from "./MyContext";
 
    function SomeComponent() {
      const { myState, setMyState } = useMyContext();
@@ -71,7 +74,7 @@ Kickstarting with React's Context API is a great way to manage and share state a
      return (
        <div>
          <p>My State: {myState}</p>
-         <button onClick={() => setMyState('New Value')}>Update State</button>
+         <button onClick={() => setMyState("New Value")}>Update State</button>
        </div>
      );
    }
@@ -82,8 +85,8 @@ Kickstarting with React's Context API is a great way to manage and share state a
 
    ```jsx
    // SomeClassComponent.js
-   import React from 'react';
-   import { MyContext } from './MyContext';
+   import React from "react";
+   import { MyContext } from "./MyContext";
 
    class SomeClassComponent extends React.Component {
      static contextType = MyContext;
@@ -94,7 +97,7 @@ Kickstarting with React's Context API is a great way to manage and share state a
        return (
          <div>
            <p>My State: {myState}</p>
-           <button onClick={() => setMyState('New Value')}>Update State</button>
+           <button onClick={() => setMyState("New Value")}>Update State</button>
          </div>
        );
      }
@@ -145,7 +148,7 @@ Here's how the React Provider works:
    Using `useContext`:
 
    ```jsx
-   import { useContext } from 'react';
+   import { useContext } from "react";
 
    const data = useContext(MyContext);
 

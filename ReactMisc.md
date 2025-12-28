@@ -1,4 +1,30 @@
-# React stuff
+# More React
+
+- [Convert a SVG file to a JSX component](#convert-a-svg-file-to-a-jsx-component)
+- [Convert a component to a separate npm package](#convert-a-component-to-a-separate-npm-package)
+- [React BDD test with Jest and Enzyme](#react-bdd-test-with-jest-and-enzyme)
+- [React Storybook](#react-storybook)
+- [React MDX](#react-mdx)
+- [PropTypes](#proptypes)
+- [SWR Mutation](#swr-mutation)
+- [React Query](#react-query)
+- [Suspense](#suspense)
+- [Error Boundaries](#error-boundaries)
+- [Mock/Fake with MirageJS](#mockfake-with-miragejs)
+- [Formik](#formik)
+- [Yup](#yup)
+- [Uncontrolled form vs Controller form](#uncontrolled-form-vs-controller-form)
+- [Vanilla React](#vanilla-react)
+- [React Hook Form](#react-hook-form)
+- [Function vs Class](#function-vs-class)
+- [Handle immutable state](#handle-immutable-state)
+- [Flux vs Redux](#flux-vs-redux)
+- [Redux](#redux)
+- [CommonJS](#commonjs)
+- [PostCSS and cssnano plugin](#postcss-and-cssnano-plugin)
+- [redux-logger](#redux-logger)
+- [react-table](#react-table)
+- [Deploy React to Azure with Azure DevOps kickstart](#deploy-react-to-azure-with-azure-devops-kickstart)
 
 ## Convert a SVG file to a JSX component
 
@@ -15,14 +41,14 @@ Steps (use LockClosed as an example):
 - Use Add.jsx as a reference, add the following lines:
 
 ```javascript
-import SVGIcon from '../SVGIcon';
+import SVGIcon from "../SVGIcon";
 
 const copyDictionary = {
   en: {
-    a11yText: 'LockClosed',
+    a11yText: "LockClosed",
   },
   fr: {
-    a11yText: 'VerrouillerFermé',
+    a11yText: "VerrouillerFermé",
   },
 };
 ```
@@ -33,7 +59,7 @@ const copyDictionary = {
 
 ```javascript
 const SvgComponent = (props) => {
-  const viewBox = '0 0 21 20';
+  const viewBox = "0 0 21 20";
   return (
     <SVGIcon {...props} copyDictionary={copyDictionary} viewBox={viewBox}>
       <path
@@ -62,15 +88,15 @@ e.g. `const viewBox = '0 0 21 20'`
 svg.spec.jsx
 
 ```javascript
-describe('LockClosed', () => {
+describe("LockClosed", () => {
   afterEach(cleanup);
-  it('should return LockClosed icon', () => {
+  it("should return LockClosed icon", () => {
     render(<Icon icon="lockclosed" size="xl" />);
     // check a11yText of LockClosed icon
-    expect(screen.getByText('LockClosed')).toBeInTheDocument();
+    expect(screen.getByText("LockClosed")).toBeInTheDocument();
   });
 
-  it('should return LockClosed icon with custom fill', () => {
+  it("should return LockClosed icon with custom fill", () => {
     const { container } = render(
       <Icon icon="lockclosed" size="xxl" fill="#c12335" />
     );

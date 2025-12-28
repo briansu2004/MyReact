@@ -1,5 +1,12 @@
 # Full Stack with React and Spring Boot
 
+- [Backend](#backend)
+  - [Spring Initializr](#spring-initializr)
+  - [MySQL](#mysql)
+  - [Java Spring Boot](#java-spring-boot)
+- [Frontend](#frontend)
+  - [React](#react)
+
 Student system full stack application with React and Spring Boot
 
 ## Backend
