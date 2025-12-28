@@ -54,7 +54,7 @@ Hot items:
   - Sensitive field masking and NER-based redaction
   - Input/output validation to reduce LLM hallucination and data leakage risks
 - Added observability and monitoring hooks to track AI tool usage, anomalous queries, and reasoning behavior, enabling AI security posture assessment.
-- Delivered a clean, intuitive UI enabling interactive, LLM-powered analytics while maintaining secure API boundaries and audit-ready logging.
+- Delivered a clean, intuitive UI with React enabling interactive, LLM-powered analytics while maintaining secure API boundaries and audit-ready logging.
 
 ### Project 6
 
@@ -72,16 +72,20 @@ Hot items:
 
 <!-- Hatfield -->
 
-Built a web application to manage Dask Kubernetes Clusters and deployed it to Microsoft Azure, using a Golang REST API on the backend and Angular on the frontend.
+Built a web application to manage Dask Kubernetes Clusters and deployed it to Microsoft Azure, using a Golang REST API on the backend and React on the frontend.
 
 - Backend (Golang): Developed a robust backend using Golang and the Gin framework to create lightweight, high-performance REST APIs for managing Dask Kubernetes Clusters. The APIs supported dynamic provisioning, scaling, monitoring, and deletion of clusters on Azure Kubernetes Service (AKS).
-  - Implemented cluster lifecycle operations, including creation, scaling, and teardown.
+  - Implemented full cluster lifecycle operations, including creation, scaling, and teardown.
   - Used GORM to persist cluster state and configuration data.
-  - Integrated Swaggo for automated API documentation to improve maintainability and developer onboarding.
-- Testing & Mocking: Applied Gomock for unit testing, creating mocked interfaces to validate cluster management logic and ensure high code quality, reliability, and test coverage.
-- Frontend (Angular): Built a responsive and modular user interface using Angular and TypeScript, following a component-based architecture. Leveraged Angular Services and RxJS Observables to manage state and handle asynchronous operations. Integrated Angular HTTPClient for secure communication with backend APIs and used Angular Material to deliver an intuitive, enterprise-grade UI. The frontend enabled users to visualize and manage Kubernetes clusters with near real-time updates on cluster status and resource utilization.
+  - Integrated Swaggo for automated API documentation, improving maintainability and developer onboarding.
+- Testing & Mocking: Applied Gomock for unit testing, creating mocked interfaces to validate cluster management logic and ensure high code quality, reliability, and strong test coverage.
+- Frontend (React): Built a responsive and modular user interface using React and TypeScript, following a functional, component-based architecture with Hooks.
+  - Leveraged React Hooks (useState, useEffect, useContext) for state management and lifecycle handling.
+  - Used Axios / Fetch API for secure communication with backend REST APIs.
+  - Implemented near real-time cluster status and resource utilization views using polling and reactive UI updates.
+  - Styled the application with Material UI (MUI) to deliver an intuitive, enterprise-grade user experience.
 - Containerization & Deployment: Containerized both backend APIs and frontend applications using Docker, stored images in Azure Container Registry (ACR), and deployed them to Azure Kubernetes Service (AKS) for scalable, production-ready workloads.
-- Networking: Exposed the Golang REST API via a public IP and Kubernetes services to enable secure external access to the application.
+- Networking: Exposed the Golang REST API via Kubernetes Services and a public IP to enable secure external access to the application.
 
 ### Project 4
 
